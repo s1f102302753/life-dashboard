@@ -12,3 +12,7 @@ backend/media/
 .env.local
 frontend/.env.local
 backend/.env
+
+node_modules/
+dist/
+build/
