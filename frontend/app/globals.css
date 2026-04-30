@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-family: "Avenir Next", "Hiragino Sans", "Noto Sans JP", sans-serif;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, rgba(213, 228, 219, 0.9), transparent 34%),
+    linear-gradient(180deg, #eff5ef 0%, #f8faf7 44%, #eef4ee 100%);
+  color: #13231a;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+}
